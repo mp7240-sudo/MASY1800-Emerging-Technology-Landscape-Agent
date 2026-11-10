@@ -1,0 +1,75 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology landscape and monitoring",
+    "version": "0.2-student"
+  },
+  "analytical_question": "As of November 10, 2026, which approach should serve as the strongest conventional comparator for a six-week synthetic evaluation of LLM-generated wealth-management risk-tolerance summaries, and what evidence should justify revisiting that choice within six months?",
+  "general_et_finding": "As of November 10, 2026, LLM-based generative AI assistants offer flexible language processing and summarization but can produce confabulations, omissions and meaning changes. These limitations are relevant even when outputs are restricted to internal drafts. Performance depends on the model, workflow, input quality, integration and human review. Conventional templates and manual processes remain viable alternatives with different costs and failure modes. Third-party model, infrastructure and integration dependencies also affect deployment maturity. The general evidence supports controlled evaluation, not an assumption of superior accuracy, productivity or reliability.",
+  "application_finding": "For drafting summaries from already captured advisor notes, the relevant bottleneck is fidelity to existing input and total advisor time including review and correction. The strongest conventional comparator is the existing structured advisor template, not manual notes alone: it provides a repeatable, standardized alternative that directly addresses the intended structured output. Manual notes remain a useful secondary baseline for understanding current practice. The LLM must demonstrate materially better review-inclusive efficiency without increased material omissions, unsupported additions or altered meaning. Evidence from client-interview assistants is not directly transferable to this internal drafting workflow.",
+  "organization_specific_finding": "The hypothetical regional bank has sufficient allocated staff, a documented questionnaire and escalation process, a segregated synthetic sandbox, and compliance and security reviewer availability to conduct a bounded six-week comparison. Its conservative posture and financial-conversation consequences favor the structured template as the primary comparator. Synthetic evaluation is appropriate for testing fidelity and workflow efficiency but cannot establish production suitability. Client-data permissions, vendor terms, jurisdiction, operational ownership and review effectiveness remain unconfirmed. No client-facing deployment, autonomous classification or change to advisor authority is justified by the supplied evidence.",
+  "evidence": [
+    {
+      "claim": "LLM systems can confabulate, generate errors and diverge from source information.",
+      "source_or_reference": "E1: NIST AI 600-1, https://doi.org/10.6028/NIST.AI.600-1, section 2.2",
+      "date_or_recency": "Published July 26, 2024; checked November 10, 2026.",
+      "evidence_type": "Voluntary guidance.",
+      "notes": "Supports source-fidelity testing and human verification. It does not establish an error rate for this model or workflow."
+    },
+    {
+      "claim": "Foundation models accounted for 17% of reported AI use cases among surveyed UK financial-services firms.",
+      "source_or_reference": "E2: Bank of England and FCA, Artificial Intelligence in UK Financial Services 2024.",
+      "date_or_recency": "Published November 21, 2024; survey of 118 firms.",
+      "evidence_type": "Industry survey.",
+      "notes": "The denominator is reported AI use cases, not firms adopting foundation models. Historical UK sector context only. The survey also documents third-party concentration."
+    },
+    {
+      "claim": "A major wealth-management firm announced an internal AI meeting-summary deployment with consented notes and Salesforce integration.",
+      "source_or_reference": "E3: Morgan Stanley Debrief launch announcement, https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch.",
+      "date_or_recency": "Published June 26, 2024.",
+      "evidence_type": "First-party corporate announcement.",
+      "notes": "Demonstrates an adjacent deployment example. The separately reported 98% advisor-team figure concerns an earlier internal knowledge Assistant, not Debrief adoption or independently verified summary accuracy."
+    },
+    {
+      "claim": "A UK wealth-management survey reported 13% using AI tools and 45% using or considering them.",
+      "source_or_reference": "E4: FCA Wealth Management Survey Report 2026, section 3.2 and Annex A.",
+      "date_or_recency": "Published August 18, 2026; underlying data through December 2024.",
+      "evidence_type": "Industry survey.",
+      "notes": "Banking-led firms were excluded. The measure concerns broad AI tools, not specifically LLM summary drafting. Publication recency should not be mistaken for observation recency."
+    },
+    {
+      "claim": "There is insufficient supplied evidence to establish whether LLM drafting outperforms manual notes or a structured advisor template.",
+      "source_or_reference": "Dated evidence register E1-E4; no matched performance or cost study identified.",
+      "date_or_recency": "Evidence register checked November 10, 2026.",
+      "evidence_type": "Evidence gap and analytical inference.",
+      "notes": "A local controlled comparison is necessary. No local accuracy, productivity, ROI or adoption result is available."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "The evidence register does not contain a matched head-to-head performance or total-cost study for the three approaches.",
+    "NIST guidance identifies relevant failure modes but does not quantify their likelihood or severity in this application.",
+    "The Bank of England and FCA survey is historical UK financial-services context, not evidence of current adoption at this hypothetical bank.",
+    "The FCA 2026 publication is especially stale and potentially hype-sensitive when interpreted as current adoption evidence: its underlying observations end in December 2024, banking-led firms are excluded, and its broad AI measure cannot be directly compared with E2's foundation-model use-case denominator.",
+    "Morgan Stanley's announcement is first-party evidence and does not independently validate accuracy, productivity or transferability to this bank.",
+    "No local vendor pricing, model performance, integration readiness, data-retention terms, security assessment or production permissions have been supplied.",
+    "A clean synthetic test does not establish production approval, real-client performance or effective ongoing human oversight."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence in selecting the structured advisor template as the strongest conventional comparator, based on direct workflow relevance and the organization's conservative posture. High confidence that source fidelity, review-inclusive advisor time and human accountability are necessary evaluation dimensions. Low confidence in any prediction of LLM performance, savings, ROI or production readiness because matched studies and local results are absent. All proposed numerical thresholds below are management choices, not externally established standards.",
+  "value_opportunity_implication": "Compare three approaches using identical synthetic cases: (1) manual notes, (2) the existing structured advisor template, and (3) LLM-generated structured summaries from synthetic advisor notes. The structured template is the primary comparator because it offers a standardized conventional workflow closest to the desired output. Manual notes provide a secondary baseline. Measure completeness, preservation of meaning, unsupported additions, corrections, review time and total advisor time. For LLM drafting, proposed management threshold: demonstrate at least 15% lower median review-inclusive advisor time than the structured template, with no increase in material fidelity failures and no deterioration in completeness. This threshold is provisional and should be agreed before testing. A faster draft that requires extensive correction does not demonstrate incremental value.",
+  "risk_governance_implication": "The advisor must retain responsibility for intake, interpretation, checking and filing. The LLM must not independently classify risk tolerance, determine suitability or recommend investments. Preserve existing data permissions and use synthetic inputs exclusively. Assess whether outputs introduce unsupported statements, omit material information or change client meaning. Proposed safety stop: immediately suspend the affected evaluation workflow if a material error reaches the reviewed record; investigate, document and remediate before resumption. Review effectiveness is currently unmeasured. Vendor data handling, retention, model changes, integration security and production support are unverified dependencies requiring separate approval. No jurisdiction-specific regulatory conclusion is supported because the legal entity and jurisdiction are unconfirmed.",
+  "recommendation_management_implication": "Proceed with the six-week synthetic evaluation using the existing structured advisor template as the primary comparator and manual notes as a secondary baseline. Freeze the synthetic test cases, prompts, template, evaluation rubric and model version where feasible. Have two advisors independently assess completeness, fidelity, unsupported additions and correction burden, with compliance oversight of material errors. Record both preparation and review time. Predefine material-error categories and adjudication procedures before testing. Proposed decision rule: revisit the choice only if the LLM demonstrates at least 15% lower median review-inclusive advisor time than the structured template without increased material fidelity failures, and the result is repeatable across the synthetic case set. Keep advisor authority and existing permissions unchanged. A successful evaluation supports further governance review, not production authorization. Within six months, reassess the comparator if local results, external workflow evidence or material ecosystem changes undermine the present decision.",
+  "change_monitoring_triggers": [
+    "Local head-to-head evaluation — Owner: Wealth-management operations manager, supported by the two participating advisors and IT analyst. Cadence: weekly during the six-week evaluation, with a final assessment at week six. Observable condition: the LLM achieves the proposed 15% reduction in median review-inclusive advisor time against the structured template, without increased material omissions, altered meaning or unsupported additions, across the frozen synthetic cases. Action: if the threshold is not met, retain the structured template; if met, submit results for compliance, privacy, security and management review before considering a separately authorized next-stage evaluation. Proposed safety stop: any material error reaching the reviewed record suspends the affected workflow pending investigation. A clean synthetic run alone is not production approval.",
+    "External workflow evidence — Owner: Wealth-management operations manager, with compliance review. Cadence: monthly through May 10, 2027. Observable condition: new independently documented, sufficiently comparable wealth-management evidence reports reproducible improvements in source fidelity and review-inclusive advisor productivity for internal LLM summary drafting, rather than general chatbot adoption or vendor-reported usage. Action: reassess the assumed value hypothesis and comparator requirements, update the evaluation rubric where justified, and determine whether further synthetic testing is warranted. Do not infer local performance from sector adoption figures.",
+    "Ecosystem and governance change — Owner: IT analyst for technology dependencies, with privacy/security and compliance/legal reviewers for governance. Cadence: monthly and upon material vendor, model, integration or policy changes. Observable condition: a model update, material change in retention or data-use terms, new integration dependency, security finding, governance requirement or loss of sandbox isolation affects the assumptions underlying the evaluation. Action: document the dependency, reassess security and governance acceptability, freeze or suspend affected testing if necessary, and require renewed authorization before introducing any new data category or operational use."
+  ],
+  "abstention_or_more_information_needed": [
+    "The legal entity and jurisdiction must be confirmed before drawing jurisdiction-specific regulatory or legal conclusions.",
+    "Vendor identity, contractual terms, retention arrangements, model-training permissions, data location and integration architecture must be verified before any production consideration.",
+    "The synthetic evaluation needs a predefined case set, material-error taxonomy, fidelity rubric, adjudication process and baseline timing methodology.",
+    "The bank must define how completeness, changed meaning, unsupported additions and review effectiveness will be measured.",
+    "Actual local results are required before estimating accuracy, productivity gains, ROI or total cost of ownership.",
+    "Production service ownership, incident response, ongoing model monitoring, change management and operational support capacity remain unconfirmed.",
+    "No conclusion can currently be made that the LLM is safer, more accurate, less expensive or more efficient than either conventional alternative."
+  ]
+}

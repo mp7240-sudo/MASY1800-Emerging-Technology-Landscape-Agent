@@ -1,0 +1,6 @@
+FROZEN CORE INTACT
+VALIDATION PASSED
+INVALID JSON: Unterminated string starting at: line 89 column 5 (char 23750)
+Expected failure: the original contrast stopped mid-string.
+VALIDATION PASSED
+VALIDATION PASSED

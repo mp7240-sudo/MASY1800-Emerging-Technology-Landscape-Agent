@@ -1,0 +1,74 @@
+{
+  "agent": {
+    "name": "Emerging Technology Landscape Agent",
+    "specialty": "Technology landscape and monitoring",
+    "version": "0.2-student"
+  },
+  "analytical_question": "As of November 10, 2026, which approach should serve as the strongest comparator for a six-week synthetic evaluation of LLM-based client-facing wealth-management risk-tolerance intake, and what evidence would justify revisiting that choice within six months?",
+  "general_et_finding": "As of November 10, 2026, LLM-based conversational assistants can interpret natural-language input, ask follow-up questions, structure responses and generate summaries. Their flexibility introduces confabulation, omission and input-fidelity risks. Reliability depends on the deployed model, prompts, controls, integration and human oversight, not simply the underlying technology category. Ecosystem dependencies include model providers, hosting, integration and data governance. NIST identifies confabulation as a documented risk but supplies no application-specific error rate. Technology capability therefore supports evaluation, not an assumption of dependable performance.",
+  "application_finding": "For client-facing risk-tolerance intake, the LLM hypothesis is improved clarification, approved-question coverage and completeness compared with conventional approaches. The relevant bottleneck is client answer elicitation, not merely producing a readable summary. The strongest conventional comparator is the simpler digital form, tested alongside the incumbent advisor-led questionnaire. The form isolates whether conversational interaction adds value beyond digitization; the incumbent establishes whether either digital approach improves the existing workflow. Critical failures include skipped approved questions, distorted answers, misleading clarification and incomplete escalation. Human review remains necessary.",
+  "organization_specific_finding": "The established regional bank has documented questionnaire and escalation processes, allocated evaluation staff, synthetic infrastructure and reviewer availability. Its conservative posture and medium-high assumed consequence environment favor a controlled comparison rather than early deployment. Run all three approaches using identical synthetic scenarios, approved questions and evaluation criteria. Preserve advisor authority and existing data permissions. The synthetic sandbox does not establish permission to process real client information. Vendor terms, production ownership, support capacity and local regulatory applicability remain unverified. A clean synthetic run alone is not production approval.",
+  "evidence": [
+    {
+      "claim": "Confabulation includes generated errors and divergence from source input; source fidelity should therefore be evaluated explicitly.",
+      "source_or_reference": "E1: NIST AI 600-1, https://doi.org/10.6028/NIST.AI.600-1, section 2.2.",
+      "date_or_recency": "Published July 26, 2024; checked November 10, 2026.",
+      "evidence_type": "Voluntary guidance.",
+      "notes": "Supports risk identification and control design, not a local failure probability or measured performance comparison."
+    },
+    {
+      "claim": "Foundation models represented 17% of reported AI use cases among surveyed UK financial-services firms.",
+      "source_or_reference": "E2: Bank of England and FCA, AI in UK financial services survey 2024.",
+      "date_or_recency": "Published November 21, 2024; 118 firm responses.",
+      "evidence_type": "Industry survey.",
+      "notes": "The denominator is reported AI use cases, not firms or wealth-management deployments. Historical UK sector context only. Also documents third-party concentration."
+    },
+    {
+      "claim": "Morgan Stanley announced consented meeting-note and summary capabilities with Salesforce integration.",
+      "source_or_reference": "E3: Morgan Stanley Debrief launch, https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch.",
+      "date_or_recency": "Published June 26, 2024.",
+      "evidence_type": "First-party corporate announcement.",
+      "notes": "Demonstrates an adjacent internal wealth-management deployment. The separately reported 98% advisor-team figure concerns an earlier internal knowledge Assistant, not Debrief or client intake."
+    },
+    {
+      "claim": "A UK wealth-management survey reported 13% using AI tools and 45% using or considering them.",
+      "source_or_reference": "E4: FCA Wealth Management Survey Report 2026, section 3.2 and Annex A, https://www.fca.org.uk/data/wealth-management-survey-report-2026.",
+      "date_or_recency": "Published August 18, 2026; underlying data through December 2024.",
+      "evidence_type": "Industry survey.",
+      "notes": "Banking-led firms were excluded. Broad AI adoption is not equivalent to LLM conversational intake adoption. Its underlying observation period makes this a particularly stale and hype-sensitive indicator of current adoption."
+    },
+    {
+      "claim": "No matched performance or cost study for the incumbent questionnaire, digital form and LLM intake workflows is supplied.",
+      "source_or_reference": "Dated evidence register supplied in the case context, checked November 10, 2026.",
+      "date_or_recency": "November 10, 2026.",
+      "evidence_type": "Evidence-register limitation and analytical inference.",
+      "notes": "Local comparative value must be established through the proposed synthetic evaluation. No ROI, accuracy or adoption prevalence estimate is justified."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "E3 demonstrates an adjacent wealth-management application, but internal meeting summaries do not establish the effectiveness of client-facing risk-tolerance interviews.",
+    "E2 and E4 measure different populations, periods and definitions. Their percentages cannot support a reliable adoption trend.",
+    "NIST guidance identifies risks but does not quantify the likelihood or severity of failures in this workflow.",
+    "No matched evidence establishes that conversational LLM intake outperforms a simpler digital form or the incumbent questionnaire.",
+    "No local accuracy, completion, advisor-time, implementation-cost or client-experience measurements are available.",
+    "Vendor contractual terms, model retention practices, data residency, integration dependencies, jurisdiction and applicable regulatory requirements are unconfirmed."
+  ],
+  "confidence_and_uncertainty": "Confidence is moderate in the landscape characterization and selection of the digital form as the strongest conventional comparator for isolating conversational value. Confidence is low in any prediction of local LLM performance, financial return or adoption. The evidence supports the existence of relevant capabilities, known reliability risks and adjacent sector deployments, but not superior client-intake outcomes. The six-week synthetic evaluation can reduce workflow-specific uncertainty but cannot establish production readiness, real-client acceptance or operational effectiveness.",
+  "value_opportunity_implication": "Compare three approaches: incumbent advisor-led questionnaire, simpler digital form and LLM conversational assistant. The digital form is the primary conventional comparator because it tests whether conversational interaction adds value beyond structured digitization. The incumbent remains the operational baseline. For client-interviewing LLMs, proposed management thresholds are at least a 10-percentage-point improvement in approved-question coverage over the digital form, without worse material omission or distortion rates, and without increased advisor correction burden. These are proposed thresholds, not evidence-based industry standards. If the LLM only drafts internal summaries instead, the bottleneck changes: demonstrate higher fidelity to already captured input and at least a proposed 15% reduction in review-inclusive advisor preparation time against conventional form-based summarization, without increased material errors.",
+  "risk_governance_implication": "Keep the LLM within approved-question elicitation, clarification, response structuring and draft summarization. It must not independently classify risk tolerance, assess suitability, allocate portfolios or recommend investments. Advisors retain review and decision authority. Evaluate source-to-summary fidelity, omissions, unsupported additions, question coverage, escalation behavior and review effectiveness. Proposed safety stop: suspend the affected test workflow following any material error that reaches the reviewed record, investigate root cause and require documented remediation before resumption. Use synthetic information exclusively in the approved sandbox. Real-client data, external vendor processing and production integrations require separate permissions and reviews. Verify retention, access controls, logging, security, model-change management and vendor dependencies before any expansion.",
+  "recommendation_management_implication": "Recommend a six-week, synthetic-only, three-arm evaluation, with the simpler digital form as the strongest conventional comparator and the incumbent advisor-led questionnaire as the baseline. Use identical scenarios, approved questions, expected answers and scoring rules across approaches. Weeks 1–2: establish test cases, material-error definitions and baseline measurements. Weeks 3–4: execute and independently review all three approaches. Weeks 5–6: assess question coverage, fidelity, omissions, escalation, review-inclusive advisor time, usability and estimated operating costs. Report individual measures rather than an aggregate score. The operations manager owns evaluation delivery, with advisor, IT, compliance and security participation. Do not authorize production or client-data use from a successful synthetic result. Revisit the choice within six months only when local head-to-head results meet proposed thresholds, external evidence materially changes workflow expectations, or ecosystem and governance changes alter feasibility. Production ownership and support capacity must first be assigned.",
+  "change_monitoring_triggers": [
+    "Decisive local head-to-head comparison. Owner: Wealth-management operations manager, supported by two participating advisors and the IT analyst. Cadence: weekly during the six-week evaluation and monthly thereafter through the six-month decision horizon. Observable condition: the LLM demonstrates at least 10 percentage points greater approved-question coverage than the digital form, with no increase in material omissions or distortions and no deterioration in advisor correction burden; alternatively, it fails the proposed threshold or produces a material error reaching the reviewed record. Action: consider advancing to a separately governed feasibility assessment only when the positive threshold is met and all other gates are satisfied. Suspend the affected workflow immediately on a material-error safety stop. A clean synthetic run alone does not constitute production approval.",
+    "External workflow evidence signal. Owner: Wealth-management sponsor, with compliance and research support. Cadence: quarterly. Observable condition: new independently credible, directly relevant evidence demonstrates measured comparative benefits or material failure patterns in client-facing financial-services intake, rather than general enterprise AI adoption or internal meeting summarization. Action: reassess the digital-form comparator, test scenarios and proposed value thresholds; do not extrapolate external findings into local performance without validation.",
+    "Ecosystem and governance change. Owner: IT analyst for technical dependencies, with privacy, security and compliance reviewers for governance changes. Cadence: monthly and upon material vendor, regulatory or contractual change. Observable condition: a model or vendor change materially affects retention, access, integration, availability, security, cost or output behavior; alternatively, a verified jurisdiction-specific requirement changes permissible processing or oversight. Action: reassess technical feasibility, permissions, controls and total cost; suspend affected testing or prohibit expansion where required permissions or safeguards are absent."
+  ],
+  "abstention_or_more_information_needed": [
+    "No production recommendation can responsibly be made without verified jurisdiction, legal-entity context and applicable compliance and privacy requirements.",
+    "Vendor identity, model configuration, hosting arrangements, retention terms, data-processing permissions and contractual safeguards must be established before evaluating external dependencies.",
+    "Local baseline measures are required to quantify current questionnaire completion, advisor preparation time, omissions, corrections, escalation frequency and operating cost.",
+    "The organization must define material omission and distortion, severity classifications, review acceptance criteria and the proposed safety-stop procedure before testing.",
+    "Client accessibility, language, digital inclusion and consent requirements should be incorporated into representative synthetic scenarios.",
+    "Production service ownership, ongoing monitoring, incident response, support capacity, model-change controls and approval authority remain unconfirmed.",
+    "The available evidence does not support claims of regulatory compliance, production accuracy, positive ROI, sector-wide conversational intake prevalence or permission to process actual client information."
+  ]
+}
